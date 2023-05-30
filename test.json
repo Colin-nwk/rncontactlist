@@ -1,0 +1,59 @@
+{
+    "contacts": [
+        {
+            "id": 7,
+            "name": "Eugene Kuhic",
+            "email": "qbuckridge@example.com",
+            "phone": "680-550-3703",
+            "image": "https://via.placeholder.com/640x480.png/00ee88?text=adipisci",
+            "user_id": 11,
+            "favorite": 0,
+            "created_at": "2023-05-29T14:51:03.000000Z",
+            "updated_at": "2023-05-29T14:51:03.000000Z"
+        },
+        {
+            "id": 14,
+            "name": "Odie Waelchi",
+            "email": "osborne86@example.org",
+            "phone": "564.787.4700",
+            "image": "https://via.placeholder.com/640x480.png/007755?text=dignissimos",
+            "user_id": 11,
+            "favorite": 0,
+            "created_at": "2023-05-29T14:51:03.000000Z",
+            "updated_at": "2023-05-29T14:51:03.000000Z"
+        },
+        {
+            "id": 15,
+            "name": "Phyllis Bosco Sr.",
+            "email": "melyssa.kohler@example.net",
+            "phone": "+1.248.202.5510",
+            "image": "https://via.placeholder.com/640x480.png/000088?text=doloremque",
+            "user_id": 11,
+            "favorite": 0,
+            "created_at": "2023-05-29T14:51:03.000000Z",
+            "updated_at": "2023-05-29T14:51:03.000000Z"
+        },
+        {
+            "id": 21,
+            "name": "Rosalee Dach",
+            "email": "ishields@example.com",
+            "phone": "(334) 949-3146",
+            "image": "https://via.placeholder.com/640x480.png/00ccaa?text=maxime",
+            "user_id": 11,
+            "favorite": 0,
+            "created_at": "2023-05-29T14:51:03.000000Z",
+            "updated_at": "2023-05-29T14:51:03.000000Z"
+        },
+        {
+            "id": 33,
+            "name": "Ryley Nikolaus",
+            "email": "lebsack.jett@example.org",
+            "phone": "+1.206.358.3241",
+            "image": "https://via.placeholder.com/640x480.png/00cc77?text=qui",
+            "user_id": 11,
+            "favorite": 0,
+            "created_at": "2023-05-29T14:51:03.000000Z",
+            "updated_at": "2023-05-29T14:51:03.000000Z"
+        }
+    ]
+}

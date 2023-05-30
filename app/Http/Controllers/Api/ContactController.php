@@ -23,7 +23,8 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'phone' => 'required',
-            'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            // 'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
         if ($validator->fails()) {

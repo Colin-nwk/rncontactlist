@@ -14,13 +14,15 @@ return new class extends Migration
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();
+            // $table->string('email')->unique();
+            $table->string('email')->nullable();
             $table->string('phone');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')
                 ->references('id')
-                ->on('users');
+                ->on('users')
+                ->onDelete('cascade');
             $table->boolean('favorite')->default(false);
             $table->timestamps();
         });
